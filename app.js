@@ -24,6 +24,6 @@ app.use((error, req, res, next) => {
   res.render("error", { error, stylesPath });
 });
 
-app.listen(port, () => console.log(`App is running on port ${port}!`));
+app.listen(process.env.PORT || port, () => console.log(`App is running on port ${port}!`));
 
 module.exports = app;
