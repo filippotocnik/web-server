@@ -1,0 +1,18 @@
+.post {
+    padding: 16px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-bottom: 24px;
+}
+
+.single-post {
+    &-title {
+        font-weight: bold;
+        margin-bottom: 16px;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+    }
+    &-body {
+        margin-bottom: 8px;
+    }
+}

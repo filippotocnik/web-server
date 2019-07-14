@@ -1,0 +1,9 @@
+<%- include('partials/header.ejs', { stylesPath }) %>
+
+    <div>
+        <% transformedPosts.forEach(function(post){ %>
+            <%- include('partials/post', { post }) %>
+        <% }); %>
+    </div>
+
+<%- include('partials/footer.ejs') %>

@@ -1,0 +1,9 @@
+<%- include('partials/header.ejs', { stylesPath }) %>  
+
+    <div class="single-post">
+        <div class="single-post-title"><%= post.title %></div>
+        <div class="single-post-body"><%= post.body %></div>
+        <a href="/"><button class="btn">Back</button></a>
+    </div>
+
+<%- include('partials/footer.ejs') %>

@@ -1,0 +1,24 @@
+{
+  "name": "turtl-assignment",
+  "version": "1.0.0",
+  "description": "Simple web server",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "sass": "sass --watch sass/main.scss:public/styles.css",
+    "test": "mocha"
+  },
+  "author": "Filip Potocnik",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "supertest": "^4.0.2"
+  }
+}
